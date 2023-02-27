@@ -16,5 +16,7 @@ namespace Entidades.Viaticos
         public DateTime Salida { get; set; } = DateTime.Now;
         public DateTime Regreso { get; set; } = DateTime.Now;
         public string Estatus { get; set; } = string.Empty;
+        public int Oficina { get; set; }
+        public int Ejercicio { get; set; }
     }
 }

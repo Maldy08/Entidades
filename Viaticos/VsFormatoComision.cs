@@ -20,6 +20,7 @@ namespace Entidades.Viaticos
         public DateTime FechaReg { get; set; } = DateTime.Now;
         public int Dias { get; set; }
         public string InforAct { get; set; } = string.Empty;
+        public string InforResul { get; set; } = string.Empty;
         public double Importe { get; set; }
         public string Nombre { get; set; } = string.Empty;
         public string Materno { get; set; } = string.Empty;
