@@ -33,6 +33,7 @@ namespace Entidades.Viaticos
         public string EdoOrigen { get; set; } = string.Empty;
         public string EdoDestino { get; set; } = string.Empty;
         public string DeptoDescripcion { get; set; } = string.Empty;
+        public string DirectorAdministrativo { get; set; } = string.Empty;
 
     }
 }
